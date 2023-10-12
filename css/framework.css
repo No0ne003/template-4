@@ -1,0 +1,291 @@
+/*! Start var */
+:root {
+  --purple: #8338ec;
+  --purple-alt: #782fde;
+  --orange-color: #f5930b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+  --blue-color: #0075ff;
+}
+/*! End var */
+/*! Start box */
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.d-block {
+  display: block;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+/*! End box */
+/*! media */
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+/*! Media */
+/*! Grid */
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+/*! Grid */
+/*! Start padding + margin */
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+/*! End padding + margin */
+/*! Start color */
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-purple {
+  background-color: var(--purple);
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-gray {
+  background-color: var(--gray-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.c-black {
+  color: black;
+}
+.c-gray {
+  color: var(--gray-color);
+}
+.c-grey {
+  color: var(--gray-color);
+}
+.c-white {
+  color: white;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-purple {
+  color: var(--purple);
+}
+/*! End color */
+/*! Start Position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/*! End Position */
+/*! Start Fonts */
+.txt-c {
+  text-align: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-normal {
+  font-weight: normal;
+}
+/*! End Fonts */
+/*! Start border */
+.rad-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.rad-c {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.b-none {
+  border: none;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-eee {
+  border: 1px solid #eee;
+}
+/*! Start border */
+/*! heigh + width */
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-100 {
+  width: 100px;
+} 
+.h-full {
+  height: 100%;
+}
+.h-100 {
+  height: 100px;
+}
+/*! heigh + width */
+/*! Start Compponents */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+/*? Main Heading */
+.main-heading {
+  margin: 20px 20px 40px;
+}
+.main-heading::before,
+.main-heading::after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.main-heading::before {
+  background-color: white;
+  width: 120px;
+}
+.main-heading::after {
+  background-color: black;
+  width: 40px;
+}
+/*? Main Heading */
+
+/*! End Compponents */
